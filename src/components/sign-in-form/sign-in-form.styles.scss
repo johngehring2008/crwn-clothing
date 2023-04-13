@@ -1,0 +1,18 @@
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+
+  &.sign-in .group .form-input {
+    background-color: rgb(225, 235, 237);
+  }
+
+  h2 {
+    margin: 10px 0;
+  }
+
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
